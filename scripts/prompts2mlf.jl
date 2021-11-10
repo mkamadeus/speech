@@ -39,13 +39,16 @@ function prompts2mlf(prompts, mlf)
   close(mlf)
 end
 
+in_folder="model/"
+out_file="temp/transcription/words.mlf"
+
 # if called from command line
 if length(ARGS) > 0 
-  if ! isfile(ARGS[1])
+  if ! isfile(in_folder * ARGS[1])
     error("can't find prompts file: $ARGS[1]")
   end
-  if length(ARGS) <= 2 
-    prompts2mlf(ARGS[1],ARGS[2] )
+  if length(ARGS) <= 1 
+    prompts2mlf(in_folder * ARGS[1],out_file )
   else
     error("prompts2list: too many arguments for call from command line")
   end
