@@ -5,7 +5,7 @@
 </s>        sil
 
 % LETTER
-A           ah
+A           aa
 B           b eh
 C           s eh
 C           ch eh
@@ -13,27 +13,41 @@ D           d eh
 E           eh
 F           eh f
 G           g eh
-H           h ah
+H           h aa
 
 % NUMBER
-SATU        s ah t uh
-DUA         d uh w ah
-TIGA        t iy g ah
-EMPAT       ax m p ah t
-LIMA        l iy m ah
-ENAM        ax n ah m
+SATU        s aa t uw
+DUA         d uw aa
+TIGA        t ih g aa
+EMPAT       ah m p aa t
+LIMA        l ih m aa
+ENAM        ah n aa m
 TUJUH       t uh jh uh hh
-DELAPAN     d ax l ah p ah n
+DELAPAN     d ah l aa p aa n
 
 % PIECE
-MENTERI     m ax n t ax r iy
+MENTERI     m ah n t ah r ih
+MENTERI     m ah n t r ih
 BENTENG     b eh n t eh ng
-GAJAH       g ah jh ah hh
-KUDA        k uh d ah
+GAJAH       g aa jh aa hh
+KUDA        k uh d aa
 
 % ENROQUE
-ROKADE      r ao k ah d ax
+ROKADE      r ao k aa d ah
 
 % LENGTH
-PANJANG     p ah n j ah ng
+PANJANG     p aa n j aa ng
 PENDEK      p eh n d eh k
+
+% MOVE
+GERAKKAN    g ah r aa k aa n
+GESER       g eh s eh r
+PINDAHKAN   p ih n d aa h k aa n
+
+% TO
+KE          k ah
+MENUJU      m ah n uw j uw
+
+% PROMOTE
+ANGKAT      aa ng k aa t
+PROMOSIKAN  p r ao m ao s iy k aa n
