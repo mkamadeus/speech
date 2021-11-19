@@ -10040,6 +10040,7 @@ IBUNDA    i b u n d a
 IBUNG    i b u ng
 IBUS    i b u s
 ICAK-ICAK    i c a k i c a k
+ICIP    i c i p
 ID    i d
 IDA    i d a
 IDAFI    i d a f i
@@ -12497,6 +12498,7 @@ KEBIRI    k ## b i r i
 KEBLANGSAK    k ## b l a ng s a k
 KEBLINGER    k ## b l i ng ## r
 KEBO    k ## b o
+KEBON    k e b o n
 KEBUK    k ## b u k
 KEBUL    k ## b u l
 KEBULI    k ## b u l i
@@ -12523,6 +12525,7 @@ KECELE    k ## c ## l ##
 KECENG    k ## c ## ng
 KECEPEK    k ## c ## p ## k
 KECER    k ## c ## r
+KECEROBOHAN    k e c e r o b o h a n
 KECEWA    k ## c ## w a
 KECI    k ## c i
 KECIAK    k ## c i a k
@@ -13481,6 +13484,7 @@ KESIUR    k ## s i u r
 KESKUL    k ## s k u l
 KESMARAN    k ## s m a r a n
 KESOHOR    k ## s o h o r
+KESOMBONGAN k e^ s o m b o n g a n
 KESOMPLOK    k ## s o m p l o k
 KESONGO    k ## s o ng o
 KESOT    k ## s o t
@@ -14065,6 +14069,7 @@ KOHLEA    k o h l ## a
 KOHOL    k o h o l
 KOHONG    k o h o ng
 KOHOR    k o h o r
+KOI    k o i
 KOIL    k ## l
 KOIN    k ## n
 KOINSEDEN    k ## n s ## d ## n
@@ -14156,6 +14161,7 @@ KOLOID    k o l ## d
 KOLOIDAL    k o l ## d a l
 KOLOK    k o l o k
 KOLOKASI    k o l o k a s i
+KOLOKIAL    k o l o k i a l
 KOLOKIUM    k o l o k i u m
 KOLOM    k o l o m
 KOLOMBEN    k o l o m b ## n
@@ -14911,6 +14917,7 @@ KUBU    k u b u
 KUBUL    k u b u l
 KUBUNG    k u b u ng
 KUBUR    k u b u r
+KUBURAN    k u b u r a n
 KUBUS    k u b u s
 KUCAI    k u c ##
 KUCAK    k u c a k
@@ -19119,6 +19126,7 @@ NGERI    ng ## r i
 NGIANG    ng i a ng
 NGILU    ng i l u
 NGOKO    ng o k o
+NGOROK    ng o r o k
 NGOS-NGOSAN    ng o s ng o s a n
 NGOT-NGOTAN    ng o t ng o t a n
 NGOWOS    ng o w o s
@@ -19411,6 +19419,7 @@ NYIT    ny i t
 NYIUR    ny i u r
 NYOLNYOLAN    ny o l ny o l a n
 NYOLO    ny o l o
+NYOLONG    ny o l o ng
 NYOMAN    ny o m a n
 NYONG    ny o ng
 NYONYA    ny o ny a
@@ -22592,6 +22601,7 @@ QI    k i
 QIAMULAIL    k i a m u l ## l
 QIRAAH    k i r a a h
 QIRAAT    k i r a a t
+QORIN    q o r i n
 QUDSI    k u d s i
 QURAN    k u r a n
 R    r
@@ -23657,6 +23667,7 @@ RISALAH    r i s a l a h
 RISAU    r i s ##
 RISET    r i s ## t
 RISI    r i s i
+RISIH    r i s i h
 RISIK    r i s i k
 RISIKO    r i s i k o
 RISIT    r i s i t
@@ -23714,6 +23725,7 @@ ROKET    r o k ## t
 ROKI    r o k i
 ROKOK    r o k o k
 ROL    r o l
+ROLADE    r o l a d e
 ROLET    r o l ## t
 ROLPRES    r o l p r ## s
 ROMA    r o m a
@@ -28283,6 +28295,7 @@ TERKUL    t ## r k u l
 TERKUP    t ## r k u p
 TERLAK    t ## r l a k
 TERLALU    t ## r l a l u
+TERLANJUR    t e r l a n j u r
 TERLUT    t ## r l u t
 TERM    t ## r m
 TERMAESTESIA    t ## r m a ## s t ## s i a
