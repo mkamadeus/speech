@@ -2610,8 +2610,8 @@ BEBAR    b ## b a r
 BEBARU    b ## b a r u
 BEBAS    b ## b a s
 BEBAT    b ## b a t
-BEBE    b ## b ##
-BEBEK    b ## b ## k
+BEBE    b e' b e'
+BEBEK    b e' b e' k
 BEBEKEL    b ## b ## k ## l
 BEBEKISME    b ## b ## k i s m ##
 BEBEL    b ## b ## l
@@ -2631,7 +2631,7 @@ BECENG    b ## c ## ng
 BECOKOK    b ## c o k o k
 BECUK    b ## c u k
 BECUS    b ## c u s
-BEDA    b ## d a
+BEDA    b e' d a
 BEDAH    b ## d a h
 BEDAK    b ## d a k
 BEDAL    b ## d a l
@@ -2641,7 +2641,7 @@ BEDAR    b ## d a r
 BEDARU    b ## d a r u
 BEDAWI    b ## d a w i
 BEDAYA    b ## d a y a
-BEDEBAH    b ## d ## b a h
+BEDEBAH    b e^ d e^ b a h
 BEDEGAP    b ## d ## g a p
 BEDEGONG    b ## d ## g o ng
 BEDEL    b ## d ## l
@@ -2799,7 +2799,7 @@ BELERA    b ## l ## r a
 BELERANG    b ## l ## r a ng
 BELERONG    b ## l ## r o ng
 BELETER    b ## l ## t ## r
-BELI    b ## l i
+BELI    b e^ l i
 BELIA    b ## l i a
 BELIAK    b ## l i a k
 BELIAN    b ## l i a n
@@ -2866,7 +2866,7 @@ BELUKUT    b ## l u k u t
 BELULANG    b ## l u l a ng
 BELULUK    b ## l u l u k
 BELULUNG    b ## l u l u ng
-BELUM    b ## l u m
+BELUM    b e^ l u m
 BELUMPAI    b ## l u m p ##
 BELUNGKANG    b ## l u ng k a ng
 BELUNGKUR    b ## l u ng k u r
@@ -2928,6 +2928,8 @@ BENDUAN    b ## n d u a n
 BENDUL    b ## n d u l
 BENDUNG    b ## n d u ng
 BENEFAKTIF    b ## n ## f a k t i f
+BENEFISIAL    b e' n e' f i s i a l
+BENERIN    b e^ n e^ r i n
 BENGAH    b ## ng a h
 BENGAL    b ## ng a l
 BENGANG    b ## ng a ng
@@ -3092,7 +3094,7 @@ BERENGUT    b ## r ## ng u t
 BERENTANG    b ## r ## n t a ng
 BEREO    b ## r ## o
 BEREROT    b ## r ## r o t
-BERES    b ## r ## s
+BERES    b e' r e' s
 BERESOK    b ## r ## s o k
 BERET    b ## r ## t
 BEREWOK    b ## r ## w o k
@@ -3113,7 +3115,7 @@ BERING-BERING    b ## r i ng b ## r i ng
 BERINGAS    b ## r i ng a s
 BERINGIN    b ## r i ng i n
 BERINGSANG    b ## r i ng s a ng
-BERISIK    b ## r i s i k
+BERISIK    b e^ r i s i k
 BERITA    b ## r i t a
 BERITAWAN    b ## r i t a w a n
 BERKAH    b ## r k a h
@@ -3154,6 +3156,7 @@ BERSAT    b ## r s a t
 BERSIH    b ## r s i h
 BERSIL    b ## r s i l
 BERSIN    b ## r s i n
+BERSISIK    b e^ r s i s i k
 BERSIT    b ## r s i t
 BERSUT    b ## r s u t
 BERTAM    b ## r t a m
@@ -3179,7 +3182,7 @@ BERWARI    b ## r w a r i
 BERZANJI    b ## r z a n j i
 BESALEN    b ## s a l ## n
 BESAN    b ## s a n
-BESAR    b ## s a r
+BESAR    b e^ s a r
 BESARAN    b ## s a r a n
 BESEK    b ## s ## k
 BESEL    b ## s ## l
@@ -3602,7 +3605,7 @@ BOLA    b o l a
 BOLAK    b o l a k
 BOLAK-BALIK    b o l a k b a l i k
 BOLANG-BALING    b o l a ng b a l i ng
-BOLEH    b o l ## h
+BOLEH    b o l e' h
 BOLERO    b o l ## r o
 BOLIDE    b o l i d ##
 BOLING    b o l i ng
@@ -3890,8 +3893,8 @@ BULAT    b u l a t
 BULBUL    b u l b u l
 BULDAN    b u l d a n
 BULDOG    b u l d o g
-BULDOSER    b u l d o s ## r
-BULE    b u l ##
+BULDOSER    b u l d o s e^ r
+BULE    b u l e'
 BULENG    b u l ## ng
 BULETIN    b u l ## t i n
 BULEVAR    b u l ## f a r
@@ -4649,10 +4652,10 @@ CERMAI    c ## r m ##
 CERMAT    c ## r m a t
 CERMIN    c ## r m i n
 CERNA    c ## r n a
-CEROBOH    c ## r o b o h
-CEROBONG    c ## r o b o ng
+CEROBOH    c e^ r o b o h
+CEROBONG    c e^ r o b o ng
 CEROCOK    c ## r o c o k
-CEROCOS    c ## r o c o s
+CEROCOS    c e^ r o c o s
 CEROMPONG    c ## r o m p o ng
 CERONGGAH    c ## r o ng g a h
 CEROPONG    c ## r o p o ng
@@ -4774,13 +4777,13 @@ COANG    c o a ng
 COBA    c o b a
 COBAN    c o b a n
 COBAR-CABIR    c o b a r c a b i r
-COBEK    c o b ## k
+COBEK    c o b e' k
 COBLOS    c o b l o s
 COCOK    c o c o k
 COCOL    c o c o l
 COCOR    c o c o r
 CODAK    c o d a k
-CODET    c o d ## t
+CODET    c o d e' t
 CODOT    c o d o t
 COGAH    c o g a h
 COGAN    c o g a n
@@ -4857,7 +4860,7 @@ COR    c o r
 CORAK    c o r a k
 CORAT-CORET    c o r a t c o r ## t
 COREK    c o r ## k
-CORENG    c o r ## ng
+CORENG    c o r e' ng
 CORET    c o r ## t
 CORO    c o r o
 COROB    c o r o b
@@ -8252,7 +8255,7 @@ GELENANG    g ## l ## n a ng
 GELENDO    g ## l ## n d o
 GELENDONG    g ## l ## n d o ng
 GELENDOT    g ## l ## n d o t
-GELENG    g ## l ## ng
+GELENG    g e' l e' ng
 GELENGGANG    g ## l ## ng g a ng
 GELENTANG    g ## l ## n t a ng
 GELENTING    g ## l ## n t i ng
@@ -8917,6 +8920,7 @@ GLUKOSAN    g l u k o s a n
 GLUKOSIDA    g l u k o s i d a
 GLUTEN    g l u t ## n
 GNOMON    g n o m o n
+GOA    g o a
 GOAK    g o a k
 GOB    g o b
 GOBA    g o b a
@@ -9526,7 +9530,7 @@ HELIUM    h ## l i u m
 HELM    h ## l m
 HELMINTOLOGI    h ## l m i n t o l o g i
 HEM    h ## m
-HEMAT    h ## m a t
+HEMAT    h e' m a t
 HEMATIT    h ## m a t i t
 HEMATITE    h ## m a t i t ##
 HEMATOFOBIA    h ## m a t o f o b i a
@@ -10024,7 +10028,7 @@ IBAR-IBAR    i b a r i b a r
 IBARAT    i b a r a t
 IBAYUH    i b a y u h
 IBID    i b i d
-IBIDEM    i b i d ## m
+IBIDEM    i b i d e^ m
 IBING    i b i ng
 IBLIS    i b l i s
 IBNI    i b n i
@@ -10054,17 +10058,17 @@ IDEAL    i d ## a l
 IDEALIS    i d ## a l i s
 IDEALISASI    i d ## a l i s a s i
 IDEALISME    i d ## a l i s m ##
-IDEALISTIS    i d ## a l i s t i s
+IDEALISTIS    i d e' a l i s t i s
 IDEM    i d ## m
 IDENTIFIKASI    i d ## n t i f i k a s i
 IDENTIK    i d ## n t i k
-IDENTITAS    i d ## n t i t a s
+IDENTITAS    i d e' n t i t a s
 IDEOFON    i d ## o f o n
 IDEOGRAF    i d ## o g r a f
 IDEOGRAFI    i d ## o g r a f i
 IDEOGRAFIS    i d ## o g r a f i s
 IDEOGRAM    i d ## o g r a m
-IDEOLOGI    i d ## o l o g i
+IDEOLOGI    i d e' o l o g i
 IDEOLOGIS    i d ## o l o g i s
 IDEOSINKRETIK    i d ## o s i n k r ## t i k
 IDEP    i d ## p
@@ -11158,7 +11162,7 @@ JELENGAR    j ## l ## ng a r
 JELENTIK    j ## l ## n t i k
 JELEPAK    j ## l ## p a k
 JELEPOK    j ## l ## p o k
-JELI    j ## l i
+JELI    j e^ l i
 JELIH    j ## l i h
 JELIJIH    j ## l i j i h
 JELIMET    j ## l i m ## t
@@ -11333,7 +11337,7 @@ JEREPET    j ## r ## p ## t
 JERI    j ## r i
 JERIAU    j ## r i ##
 JERIGEN    j ## r i g ## n
-JERIH    j ## r i h
+JERIH    j e^ r i h
 JERIJI    j ## r i j i
 JERIKEN    j ## r i k ## n
 JERING    j ## r i ng
@@ -14134,7 +14138,7 @@ KOLEKTIVIS    k o l ## k t i f i s
 KOLEKTIVISASI    k o l ## k t i f i s a s i
 KOLEKTIVISME    k o l ## k t i f i s m ##
 KOLEKTIVITAS    k o l ## k t i f i t a s
-KOLEKTOR    k o l ## k t o r
+KOLEKTOR    k o l e' k t o r
 KOLEMBENG    k o l ## m b ## ng
 KOLEMIA    k o l ## m i a
 KOLENG    k o l ## ng
@@ -17793,7 +17797,7 @@ MEPET    m ## p ## t
 MERACANG    m ## r a c a ng
 MERAGA    m ## r a g a
 MERAGI    m ## r a g i
-MERAH    m ## r a h
+MERAH    m e' r a h
 MERAJAK    m ## r a j a k
 MERAK    m ## r a k
 MERAKAN    m ## r a k a n
@@ -21123,7 +21127,7 @@ PERIFRASTIS    p ## r i f r a s t i s
 PERIGE    p ## r i g ##
 PERIGEL    p ## r i g ## l
 PERIGI    p ## r i g i
-PERIH    p ## r i h
+PERIH    p e^ r i h
 PERIHAL    p ## r i h a l
 PERIHELION    p ## r i h ## l i o n
 PERIKARDITIS    p ## r i k a r d i t i s
@@ -22601,7 +22605,7 @@ QI    k i
 QIAMULAIL    k i a m u l ## l
 QIRAAH    k i r a a h
 QIRAAT    k i r a a t
-QORIN    q o r i n
+QORIN    k o r i n
 QUDSI    k u d s i
 QURAN    k u r a n
 R    r
@@ -25151,7 +25155,7 @@ SENDERUNG    s ## n d ## r u ng
 SENDERUT    s ## n d ## r u t
 SENDI    s ## n d i
 SENDING    s ## n d i ng
-SENDIRI    s ## n d i r i
+SENDIRI    s e^ n d i r i
 SENDOCONG    s ## n d o c o ng
 SENDOK    s ## n d o k
 SENDON    s ## n d o n
