@@ -5,49 +5,49 @@
 </s>        sil
 
 % LETTER
-A           aa
-B           b eh
-C           s eh
-C           ch eh
-D           d eh
-E           eh
-F           eh f
-G           g eh
-H           h aa
+A           a
+B           b e'
+C           s e'
+C           ch e'
+D           d e'
+E           e'
+F           e' f
+G           g e'
+H           h a
 
 % NUMBER
-SATU        s aa t uw
-DUA         d uw aa
-TIGA        t ih g aa
-EMPAT       ah m p aa t
-LIMA        l ih m aa
-ENAM        ah n aa m
-TUJUH       t uh jh uh hh
-DELAPAN     d ah l aa p aa n
+SATU        s a t u
+DUA         d u a
+TIGA        t i g a
+EMPAT       e^ m p a t
+LIMA        l i m a
+ENAM        e^ n aa m
+TUJUH       t u j u h
+DELAPAN     d e^ l a p a n
 
 % PIECE
-MENTERI     m ah n t ah r ih
-MENTERI     m ah n t r ih
-BENTENG     b eh n t eh ng
-GAJAH       g aa jh aa hh
-KUDA        k uh d aa
+MENTERI     m e^ n t e^ r i
+MENTERI     m e^ n t r i
+BENTENG     b e' n t e' ng
+GAJAH       g a j a h
+KUDA        k u d a
 
 % ENROQUE
-ROKADE      r ao k aa d ah
+ROKADE      r o k a d e^
 
 % LENGTH
-PANJANG     p aa n j aa ng
-PENDEK      p eh n d eh k
+PANJANG     p a n j a ng
+PENDEK      p e' n d e' k
 
 % MOVE
-GERAKKAN    g ah r aa k aa n
-GESER       g eh s eh r
-PINDAHKAN   p ih n d aa h k aa n
+GERAKKAN    g e^ r a k a n
+GESER       g e' s e' r
+PINDAHKAN   p i n d a h k a n
 
 % TO
-KE          k ah
-MENUJU      m ah n uw j uw
+KE          k e^
+MENUJU      m e^ n u j u
 
 % PROMOTE
-ANGKAT      aa ng k aa t
-PROMOSIKAN  p r ao m ao s iy k aa n
+ANGKAT      a ng k a t
+PROMOSIKAN  p r o m o s i k a n
