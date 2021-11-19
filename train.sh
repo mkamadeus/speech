@@ -1,6 +1,7 @@
 mkdir -p temp
 mkdir -p temp/grammar
 mkdir -p temp/pronunciation
+mkdir -p temp/transcription
 mkdir -p temp/encoding
 mkdir -p temp/hmm/
 mkdir -p temp/hmm/hmm0/
@@ -32,24 +33,27 @@ HDMan -A -D -T 1 -m -w temp/pronunciation/wlist -n temp/pronunciation/monophones
 sed '/sp/d' ./temp/pronunciation/monophones1 > ./temp/pronunciation/monophones0
 
 # Step 4
-julia scripts/prompts2mlf.jl $2
+julia scripts/prompts2mlf.jl 
 HLEd -A -D -T 1 -l '*' -d temp/pronunciation/dict -i temp/transcription/phones0.mlf scripts/mkphones0.led temp/transcription/words.mlf
 HLEd -A -D -T 1 -l '*' -d temp/pronunciation/dict -i temp/transcription/phones1.mlf scripts/mkphones1.led temp/transcription/words.mlf
 
 # Step 5
-## ----- GENERATE CODETRAIN.SCP -----
+python3 scripts/generatescp.py
 HCopy -A -D -T 1 -C config/wav_config -S temp/encoding/codetrain.scp
 
 # Step 6
-## ----- GENERATE TRAIN.SCP -----
 HCompV -A -D -T 1 -C config/train_config -f 0.01 -m -S temp/hmm/train.scp -M temp/hmm/hmm0 config/proto
 cp temp/pronunciation/monophones0 temp/hmm/hmm0/hmmdefs
+
 # Do Flat Start Monophones http://voxforge.org/home/dev/acousticmodels/windows/create/htkjulius/tutorial/monophones/step-6
 cp temp/hmm/hmm0/vFloors temp/hmm/hmm0/macros
+python3 scripts/hmmprotogen.py
+
 # Do Create macros file http://voxforge.org/home/dev/acousticmodels/windows/create/htkjulius/tutorial/monophones/step-6
-HERest -A -D -T 1 -C config/train_config -I temp/transcription/phones0.mlf -t 250.0 150.0 1000.0 -S temp/hmm/train.scp -H temp/hmm/hmm0/macros -H temp/hmm/hmm0/hmmdefs -M temp/hmm/hmm1 temp/pronunciation/monophones0
-HERest -A -D -T 1 -C config/train_config -I temp/transcription/phones0.mlf -t 250.0 150.0 1000.0 -S temp/hmm/train.scp -H temp/hmm/hmm1/macros -H temp/hmm/hmm1/hmmdefs -M temp/hmm/hmm2 temp/pronunciation/monophones0
-HERest -A -D -T 1 -C config/train_config -I temp/transcription/phones0.mlf -t 250.0 150.0 1000.0 -S temp/hmm/train.scp -H temp/hmm/hmm2/macros -H temp/hmm/hmm2/hmmdefs -M temp/hmm/hmm3 temp/pronunciation/monophones0
+for i in `seq 0 2`
+do
+  HERest -A -D -T 1 -C config/train_config -I temp/transcription/phones0.mlf -t 250.0 150.0 1000.0 -S temp/hmm/train.scp -H temp/hmm/hmm$i/macros -H temp/hmm/hmm$i/hmmdefs -M temp/hmm/hmm$(($i+1)) temp/pronunciation/monophones0
+done
 
 # Step 7
 # Do whatever the fuck the tutorial asked when creating new sp model
