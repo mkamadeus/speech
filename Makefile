@@ -92,3 +92,23 @@ step10:
 	cp temp/grammar/sample.dict out/sample.dict
 	cp temp/hmm/hmm15/hmmdefs out/hmmdefs
 	cp temp/triphones/tiedlist out/tiedlist
+
+build-htk:
+	cd docker && \
+	docker build -t htk:latest .
+.PHONY: build-htk
+
+docker: build-docker run-docker
+.PHONY: docker
+
+build-docker:
+	docker build -t asr:latest .
+.PHONY: build-docker
+
+run-docker:
+	docker run \
+		--rm \
+		--device /dev/snd:/dev/snd \
+		--volume $(shell pwd)/train:/app/train \
+		asr:latest
+.PHONY: run-docker

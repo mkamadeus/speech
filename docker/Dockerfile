@@ -13,6 +13,9 @@ RUN apt-get update && apt-get install \
   curl \
   gcc \
   build-essential \
+  python3 \
+  alsa-base \
+  alsa-utils \
   -y
 
 # setup dirs

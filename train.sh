@@ -1,3 +1,12 @@
+#!/bin/bash
+
+function cleanup()
+{
+  echo "woi gagal >:("
+}
+
+trap cleanup EXIT
+
 mkdir -p temp
 mkdir -p temp/grammar
 mkdir -p temp/pronunciation
@@ -56,7 +65,8 @@ do
 done
 
 # Step 7
-# Do whatever the fuck the tutorial asked when creating new sp model
+cp temp/hmm/hmm3/hmmdefs temp/hmm/hmm4/hmmdefs
+python3 scripts/addsp.py
 cp temp/hmm/hmm3/macros temp/hmm/hmm4/macros
 HHEd -A -D -T 1 -H temp/hmm/hmm4/macros -H temp/hmm/hmm4/hmmdefs -M temp/hmm/hmm5 scripts/sil.hed temp/pronunciation/monophones1
 HERest -A -D -T 1 -C config/train_config  -I temp/transcription/phones1.mlf -t 250.0 150.0 3000.0 -S temp/hmm/train.scp -H temp/hmm/hmm5/macros -H  temp/hmm/hmm5/hmmdefs -M temp/hmm/hmm6 temp/pronunciation/monophones1
