@@ -1,8 +1,11 @@
 #!/bin/bash
+set -e
 
 function cleanup()
 {
-  echo "woi gagal >:("
+  tput setaf 3
+  echo "Training exited with status code $?"
+  tput sgr0
 }
 
 trap cleanup EXIT
