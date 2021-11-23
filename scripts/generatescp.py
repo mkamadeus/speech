@@ -1,6 +1,13 @@
 import os
+import sys
 
-PATH_TO_PROMPTS = 'model/prompts.txt'
+args = sys.argv[1:]
+print(f"-----------------------------ARGS: {args}---------------------------------")
+
+if len(args) > 0:
+	PATH_TO_PROMPTS = f'model/{args[0]}'
+else:
+	PATH_TO_PROMPTS = 'model/prompts.txt'
 PATH_TO_CODETRAIN = 'temp/encoding/codetrain.scp'
 PATH_TO_TRAIN = 'temp/hmm/train.scp'
 
