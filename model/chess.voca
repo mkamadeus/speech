@@ -6,47 +6,47 @@
 
 % LETTER
 A           a
-B           b e'
-C           s e'
-C           ch e'
-D           d e'
-E           e'
-F           e' f
-G           g e'
+B           b e
+C           s e
+C           c e
+D           d e
+E           e
+F           e f
+G           g e
 H           h a
 
 % NUMBER
 SATU        s a t u
 DUA         d u a
 TIGA        t i g a
-EMPAT       e^ m p a t
+EMPAT       @ m p a t
 LIMA        l i m a
-ENAM        e^ n aa m
+ENAM        @ n a m
 TUJUH       t u j u h
-DELAPAN     d e^ l a p a n
+DELAPAN     d @ l a p a n
 
 % PIECE
-MENTERI     m e^ n t e^ r i
-MENTERI     m e^ n t r i
-BENTENG     b e' n t e' ng
+MENTERI     m @ n t @ r i
+MENTERI     m @ n t r i
+BENTENG     b e n t e ng
 GAJAH       g a j a h
 KUDA        k u d a
 
 % ENROQUE
-ROKADE      r o k a d e^
+ROKADE      r o k a d @
 
 % LENGTH
 PANJANG     p a n j a ng
-PENDEK      p e' n d e' k
+PENDEK      p e n d e k
 
 % MOVE
-GERAKKAN    g e^ r a k a n
-GESER       g e' s e' r
+GERAKKAN    g @ r a k a n
+GESER       g e s e r
 PINDAHKAN   p i n d a h k a n
 
 % TO
-KE          k e^
-MENUJU      m e^ n u j u
+KE          k @
+MENUJU      m @ n u j u
 
 % PROMOTE
 ANGKAT      a ng k a t

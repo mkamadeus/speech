@@ -149,8 +149,8 @@ function main()
   vocafile=in_folder * grammar_prefix * ".voca"
   termfile=out_folder * grammar_prefix * ".term"
   tmpvocafile="$(workingfolder)/g$(getpid()).voca"
-  dfafile=out_folder * grammar_prefix * ".dfa"
-  dictfile="$(out_folder)$(grammar_prefix).dict"
+  dfafile=out_folder * "sample.dfa"
+  dictfile="$(out_folder)sample.dict"
   headerfile="$(workingfolder)/g$(getpid()).h"
 
   reverse_grammar(rgramfile,gramfile)

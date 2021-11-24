@@ -1,18 +1,34 @@
 0	[<s>]	sil
 1	[</s>]	sil
-2	[PHONE]	f ow n
-2	[CALL]	k ao l
-3	[DIAL]	d ay l
-4	[STEVE]	s t iy v
-4	[YOUNG]	y ah ng
-5	[FIVE]	f ay v
-5	[FOUR]	f ow r
-5	[NINE]	n ay n
-5	[EIGHT]	ey t
-5	[OH]	ow
-5	[ONE]	w ah n
-5	[SEVEN]	s eh v ih n
-5	[SIX]	s ih k s
-5	[THREE]	th r iy
-5	[TWO]	t uw
-5	[ZERO]	z iy r ow
+2	[A]	a
+2	[B]	b e
+2	[C]	s e
+2	[C]	c e
+2	[D]	d e
+2	[E]	e
+2	[F]	e f
+2	[G]	g e
+2	[H]	h a
+3	[SATU]	s a t u
+3	[DUA]	d u a
+3	[TIGA]	t i g a
+3	[EMPAT]	@ m p a t
+3	[LIMA]	l i m a
+3	[ENAM]	@ n a m
+3	[TUJUH]	t u j u h
+3	[DELAPAN]	d @ l a p a n
+4	[MENTERI]	m @ n t @ r i
+4	[MENTERI]	m @ n t r i
+4	[BENTENG]	b e n t e ng
+4	[GAJAH]	g a j a h
+4	[KUDA]	k u d a
+5	[ROKADE]	r o k a d @
+6	[PANJANG]	p a n j a ng
+6	[PENDEK]	p e n d e k
+7	[GERAKKAN]	g @ r a k a n
+7	[GESER]	g e s e r
+7	[PINDAHKAN]	p i n d a h k a n
+8	[KE]	k @
+8	[MENUJU]	m @ n u j u
+9	[ANGKAT]	a ng k a t
+9	[PROMOSIKAN]	p r o m o s i k a n
