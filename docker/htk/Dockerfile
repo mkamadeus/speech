@@ -1,22 +1,28 @@
 FROM ubuntu:latest
 
 # vars
-ENV JULIA_VERSION 1.6.3
-ENV JULIUS_VERSION 4.3.1
+ENV JULIA_VERSION=1.6.3
+ENV JULIUS_VERSION=4.3.1
+ENV TZ=Asia/Jakarta
 
 # image setup
-RUN apt-get update && apt-get install \
+RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtimeapt-get update && apt-get install \
   make \
   tar \
   libc6-dev-i386 \
   libx11-dev \
   curl \
   gcc \
-  build-essential \
+  build-essential \ 
+  zlib1g-dev \
+  libsdl2-dev \
+  libasound2-dev \
   python3 \
   alsa-base \
   alsa-utils \
-  -y
+  pulseaudio \
+  -y && echo $TZ > /etc/timezone
+RUN 
 
 # setup dirs
 RUN mkdir -p /opt/voxforce/bin/htk && \
@@ -36,8 +42,8 @@ RUN curl -s https://julialang-s3.julialang.org/bin/linux/x64/1.6/julia-$JULIA_VE
 RUN mv julia-$JULIA_VERSION/ /opt/julia && ln -s /opt/julia/bin/julia /usr/local/bin/julia
 
 # install Julius
-RUN curl -s http://jaist.dl.sourceforge.jp/julius/60273/julius-$JULIUS_VERSION.tar.gz | tar -xvzf - && cd julius-$JULIUS_VERSION && ./configure && make && make install
-RUN mkdir -p /opt/julius && curl -s http://jaist.dl.sourceforge.jp/julius/60416/dictation-kit-v$JULIUS_VERSION-linux.tgz | tar -C /opt/julius -xvzf -
+RUN curl -sL http://voxforge.org/home/dev/acousticmodels/linux/create/htkjulius/tutorial/download/julius-standard-alsa-$JULIUS_VERSION.tar.gz | tar -xvzf -
+RUN mv julius-$JULIUS_VERSION /opt/julius && ln -s /opt/julius/bin/julius /usr/local/bin/julius
 
 # setup paths
 ENV PATH="${PATH}:/opt/voxforce/bin/htk/bin:/opt/voxforce/bin/julius/bin"

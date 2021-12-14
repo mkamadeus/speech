@@ -3,9 +3,7 @@ set -e
 
 function cleanup()
 {
-  tput setaf 3
   echo "Training exited with status code $?"
-  tput sgr0
 }
 
 trap cleanup EXIT
@@ -41,16 +39,16 @@ julia scripts/mkdfa.jl $1
 # Step 2
 # $2 = prompts.txt
 julia scripts/prompts2wlist.jl $2
-HDMan -A -D -T 1 -m -w temp/pronunciation/wlist -n temp/pronunciation/monophones1 -i -l temp/pronunciation/dlog temp/pronunciation/dict model/VoxForgeDict.txt
+HDMan -A -D -T 1 -m -w temp/pronunciation/wlist -n temp/pronunciation/monophones1 -i -l temp/pronunciation/dlog temp/pronunciation/dict $3
 sed '/sp/d' ./temp/pronunciation/monophones1 > ./temp/pronunciation/monophones0
 
 # Step 4
-julia scripts/prompts2mlf.jl 
+julia scripts/prompts2mlf.jl $2
 HLEd -A -D -T 1 -l '*' -d temp/pronunciation/dict -i temp/transcription/phones0.mlf scripts/mkphones0.led temp/transcription/words.mlf
 HLEd -A -D -T 1 -l '*' -d temp/pronunciation/dict -i temp/transcription/phones1.mlf scripts/mkphones1.led temp/transcription/words.mlf
 
 # Step 5
-python3 scripts/generatescp.py
+python3 scripts/generatescp.py $2
 HCopy -A -D -T 1 -C config/wav_config -S temp/encoding/codetrain.scp
 
 # Step 6
@@ -88,7 +86,7 @@ HERest  -A -D -T 1 -C config/train_config -I temp/triphones/wintri.mlf -t 250.0 
 HERest  -A -D -T 1 -C config/train_config -I temp/triphones/wintri.mlf -t 250.0 150.0 3000.0 -s temp/stats -S temp/hmm/train.scp -H temp/hmm/hmm11/macros -H temp/hmm/hmm11/hmmdefs -M temp/hmm/hmm12 temp/triphones/triphones1
 
 # Step 10
-HDMan -A -D -T 1 -b sp -n temp/triphones/fulllist0 -g scripts/maketriphones.ded -l flog temp/triphones/dict-tri model/VoxForgeDict.txt
+HDMan -A -D -T 1 -b sp -n temp/triphones/fulllist0 -g scripts/maketriphones.ded -l flog temp/triphones/dict-tri $3
 julia scripts/fixfulllist.jl temp/triphones/fulllist0 temp/pronunciation/monophones0 temp/triphones/fulllist
 cp scripts/tree.hed temp/tree.hed
 julia scripts/mkclscript.jl temp/pronunciation/monophones0 temp/tree.hed temp/triphones
