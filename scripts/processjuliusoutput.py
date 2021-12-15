@@ -14,9 +14,7 @@ with open(JULIUS_OUTPUT_PATH, 'r') as f:
 with open(WAVLIST_PATH, 'r') as f:
     lines = ["#!MLF!#"]
     for jul in julius_output:
-        print(jul.strip())
         if jul.startswith('sentence1'):
-            print("WOI")
             words = jul.strip().split(' ')[2:-2]
             lines.append(f"\"{f.readline().strip()}.lab\"")
             lines.extend(words)
