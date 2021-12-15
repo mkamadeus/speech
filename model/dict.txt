@@ -5,28 +5,28 @@ BENTENG     b e n t e ng
 C           c e
 C           s e
 D           d e
-DELAPAN     d @ l a p a n
+DELAPAN     d ae l a p a n
 DUA         d u a
 E           e
-EMPAT       @ m p a t
-ENAM        @ n a m
+EMPAT       ae m p a t
+ENAM        ae n a m
 F           e f
 G           g e
 GAJAH       g a j a h
-GERAKKAN    g @ r a k a n
+GERAKKAN    g ae r a k a n
 GESER       g e s e r
 H           h a
-KE          k @
+KE          k ae
 KUDA        k u d a
 LIMA        l i m a
-MENTERI     m @ n t @ r i
-MENTERI     m @ n t r i
-MENUJU      m @ n u j u
+MENTERI     m ae n t ae r i
+MENTERI     m ae n t r i
+MENUJU      m ae n u j u
 PANJANG     p a n j a ng
 PENDEK      p e n d e k
 PINDAHKAN   p i n d a h k a n
 PROMOSIKAN  p r o m o s i k a n
-ROKADE      r o k a d @
+ROKADE      r o k a d ae
 SATU        s a t u
 SENT-END    sil
 SENT-START  sil
