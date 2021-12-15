@@ -19,34 +19,34 @@ H           h a
 SATU        s a t u
 DUA         d u a
 TIGA        t i g a
-EMPAT       @ m p a t
+EMPAT       ae m p a t
 LIMA        l i m a
-ENAM        @ n a m
+ENAM        ae n a m
 TUJUH       t u j u h
-DELAPAN     d @ l a p a n
+DELAPAN     d ae l a p a n
 
 % PIECE
-MENTERI     m @ n t @ r i
-MENTERI     m @ n t r i
+MENTERI     m ae n t ae r i
+MENTERI     m ae n t r i
 BENTENG     b e n t e ng
 GAJAH       g a j a h
 KUDA        k u d a
 
 % ENROQUE
-ROKADE      r o k a d @
+ROKADE      r o k a d ae
 
 % LENGTH
 PANJANG     p a n j a ng
 PENDEK      p e n d e k
 
 % MOVE
-GERAKKAN    g @ r a k a n
+GERAKKAN    g ae r a k a n
 GESER       g e s e r
 PINDAHKAN   p i n d a h k a n
 
 % TO
-KE          k @
-MENUJU      m @ n u j u
+KE          k ae
+MENUJU      m ae n u j u
 
 % PROMOTE
 ANGKAT      a ng k a t

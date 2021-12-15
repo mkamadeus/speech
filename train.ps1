@@ -1,4 +1,4 @@
-#!/bin/bash
+# Usage train.ps1 chess train.txt dict.txt
 
 New-Item -ItemType Directory -Force -Path "temp"
 New-Item -ItemType Directory -Force -Path "temp/grammar"
