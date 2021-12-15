@@ -1,1 +1,0 @@
-julius -input mic -C config/sample.jconf

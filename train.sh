@@ -100,3 +100,6 @@ cp temp/grammar/sample.dfa out/sample.dfa
 cp temp/grammar/sample.dict out/sample.dict
 cp temp/hmm/hmm15/hmmdefs out/hmmdefs
 cp temp/triphones/tiedlist out/tiedlist
+
+# run julius
+julius -input mic -C config/sample.jconf
