@@ -10,3 +10,32 @@
 ./train/s27.wav PINDAHKAN H DELAPAN KE G TUJUH
 ./train/s28.wav PROMOSIKAN D TIGA KE KUDA
 ./train/s29.wav ANGKAT G LIMA KE GAJAH
+./train/awoo-s1.wav GERAKKAN A SATU KE B DUA
+./train/awoo-s2.wav GESER C TIGA MENUJU D EMPAT
+./train/awoo-s3.wav PINDAHKAN E LIMA KE F ENAM
+./train/awoo-s4.wav GERAKKAN G TUJUH KE H DELAPANDUA SATU
+./train/awoo-s10.wav PROMOSIKAN H DUA KE MENTERI
+./train/awoo-s11.wav ANGKAT A TUJUH KE BENTENG
+./train/awoo-s24.wav GESER B DUA KE A SATU
+./train/awoo-s25.wav PINDAHKAN D EMPAT KE C TIGA
+./train/awoo-s26.wav GERAKKAN F ENAM KE E LIMA
+./train/awoo-s27.wav PINDAHKAN H DELAPAN KE G TUJUH
+./train/awoo-s28.wav PROMOSIKAN D TIGA KE KUDA
+./train/awoo-s29.wav ANGKAT G LIMA KE GAJAH
+./train/farid-s1.wav GERAKKAN A SATU KE B DUA
+./train/farid-s2.wav GESER C TIGA MENUJU D EMPAT
+./train/farid-s3.wav PINDAHKAN E LIMA KE F ENAM
+./train/farid-s4.wav GERAKKAN G TUJUH KE H DELAPANDUA SATU
+./train/farid-s10.wav PROMOSIKAN H DUA KE MENTERI
+./train/farid-s11.wav ANGKAT A TUJUH KE BENTENG
+./train/farid-s24.wav GESER B DUA KE A SATU
+./train/farid-s25.wav PINDAHKAN D EMPAT KE C TIGA
+./train/farid-s26.wav GERAKKAN F ENAM KE E LIMA
+./train/farid-s27.wav PINDAHKAN H DELAPAN KE G TUJUH
+./train/farid-s28.wav PROMOSIKAN D TIGA KE KUDA
+./train/farid-s29.wav ANGKAT G LIMA KE GAJAH
+
+./train/farid-test-1.wav GERAKKAN E EMPAT KE E LIMA
+./train/farid-test-2.wav PROMOSIKAN H TIGA KE MENTERI
+./train/farid-test-3.wav GESER G SATU MENUJU F TIGA
+./train/farid-test-4.wav ANGKAT G TIGA KE GAJAH
