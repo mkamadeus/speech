@@ -1,4 +1,5 @@
 New-Item -ItemType Directory -Force -Path "temp"
+New-Item -ItemType Directory -Force -Path "temp/grammar"
 New-Item -ItemType Directory -Force -Path "temp/ngrams"
 New-Item -ItemType Directory -Force -Path "temp/ngrams/db0"
 New-Item -ItemType Directory -Force -Path "temp/ngrams/db1"
@@ -20,6 +21,11 @@ LBuild -T 1 -c 2 1 -n 2 -f TEXT -l temp/ngrams/lm/ug temp/ngrams/db0/wmap temp/n
 # Generate Trigrams
 LBuild -T 1 -c 3 1 -n 3 -f TEXT -l temp/ngrams/lm/bg temp/ngrams/db0/wmap temp/ngrams/lm/tg $(gci temp/ngrams/db1/data.*)
 
+# == Generate dict
+julia scripts/mkdfa.jl chess
+(Get-Content temp/grammar/sample.dict) -replace '\[|\]|\d\s*','' | Set-Content './temp/grammar/ngram.dict'
+
 # Copy out files
 New-Item -ItemType Directory -Force -Path "out/"
 cp temp/ngrams/lm/tg out/model.arpa
+cp temp/grammar/ngram.dict out/ngram.dict
