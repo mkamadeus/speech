@@ -1,1 +1,1 @@
-julius-4.3.1 -input mic -C config/sample.jconf
+julius -input mic -C config/sample.jconf
