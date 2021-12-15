@@ -10,7 +10,12 @@ Optional requirements for running in a container:
 
 - Docker
 
-## Running
+## Populating Data
+
+1. Record in 16kHz sample rate, 16 bitrate, and mono.
+2. Add paths to your audio file in `train.txt`.
+
+## Training the Model
 
 ### On Windows
 

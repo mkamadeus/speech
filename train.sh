@@ -3,10 +3,13 @@ set -e
 
 function cleanup()
 {
+
   echo "Training exited with status code $?"
 }
 
 trap cleanup EXIT
+
+rm -rf temp/
 
 mkdir -p temp
 mkdir -p temp/grammar
